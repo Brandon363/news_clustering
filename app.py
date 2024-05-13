@@ -4,11 +4,11 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
 
-df = pd.read_csv("consolidated.csv")
+df = pd.read_csv("data/consolidated.csv")
 
 
 def read_csv():
-    df = pd.read_csv("consolidated.csv")
+    df = pd.read_csv("data/consolidated.csv")
 
 
 def sort_by_value(group):
